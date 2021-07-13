@@ -85,3 +85,29 @@ console.log('The quote \'There is no exercise better for the heart than reaching
 //Using console.log() print out the following statement: "Love is not patronizing and charity isn't about pity, it is about love. Charity and love are the same -- with charity you give love, so don't just give money but reach out your hand instead."
 console.log('"Love is not patronizing and charity isn\'t about pity, it is about love. Charity and love are the same -- with charity you give love, so don\'t just give money but reach out your hand instead."')
 
+//Check if typeof '10' is exactly equal to 10. If not make it exactly equal.
+console.log(typeof '10')
+let num = '10'
+let numInt = parseInt(num)
+console.log(numInt) 
+console.log(typeof numInt) //double-checking to see the typeof is equal to int 10
+
+//Check if parseFloat('9.8') is equal to 10 if not make it exactly equal with 10.
+
+
+//Check if 'on' is found in both python and jargon
+
+
+//I hope this course is not full of jargon. Check if jargon is in the sentence.
+
+
+//Generate a random number between 0 and 100 inclusively.
+
+
+//Generate a random number between 50 and 100 inclusively.
+
+
+//Generate a random number between 0 and 255 inclusively.
+
+
+//Access the 'JavaScript' string characters using a random number.
