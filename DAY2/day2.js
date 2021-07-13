@@ -46,3 +46,42 @@ console.log(challenge.indexOf('a'))
 
 //Use lastIndexOf to determine the position of the last occurrence of a in 30 Days Of JavaScript.
 console.log(challenge.lastIndexOf('a'))
+
+//Use indexOf to find the position of the first occurrence of the word because in the following sentence:'You cannot end a sentence with because because because is a conjunction'
+let sentence = 'You cannot end a sentence with because because because is a conjunction'
+
+console.log(sentence.indexOf('because'))
+
+//Use lastIndexOf to find the position of the last occurrence of the word because in the following sentence:'You cannot end a sentence with because because because is a conjunction'
+console.log(sentence.lastIndexOf('because'))
+
+//Use search to find the position of the first occurrence of the word because in the following sentence:'You cannot end a sentence with because because because is a conjunction'
+console.log(sentence.search('because'))
+
+//Use trim() to remove any trailing whitespace at the beginning and the end of a string.E.g ' 30 Days Of JavaScript '.
+console.log(challenge.trim())
+
+//Use startsWith() method with the string 30 Days Of JavaScript and make the result true
+console.log(challenge.startsWith('30'))
+
+//Use endsWith() method with the string 30 Days Of JavaScript and make the result true
+console.log(challenge.endsWith('JavaScript'))
+
+//Use match() method to find all the a’s in 30 Days Of JavaScript
+let pattern = /a/gi
+console.log(challenge.match(pattern))
+
+//Use concat() and merge '30 Days of' and 'JavaScript' to a single string, '30 Days Of JavaScript'
+let string = ''
+console.log(string.concat('30 Days of ', 'JavaScript'))
+
+//Use repeat() method to print 30 Days Of JavaScript 2 times
+console.log(challenge.repeat(2))
+
+//exercise level 2
+// Using console.log() print out the following statement:  The quote 'There is no exercise better for the heart than reaching down and lifting people up.' by John Holmes teaches us to help one another.
+console.log('The quote \'There is no exercise better for the heart than reaching down and lifting people up.\' by John Holmes teaches us to help one another.')
+
+//Using console.log() print out the following statement: "Love is not patronizing and charity isn't about pity, it is about love. Charity and love are the same -- with charity you give love, so don't just give money but reach out your hand instead."
+console.log('"Love is not patronizing and charity isn\'t about pity, it is about love. Charity and love are the same -- with charity you give love, so don\'t just give money but reach out your hand instead."')
+
