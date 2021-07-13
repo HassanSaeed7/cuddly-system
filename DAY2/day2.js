@@ -91,23 +91,3 @@ let num = '10'
 let numInt = parseInt(num)
 console.log(numInt) 
 console.log(typeof numInt) //double-checking to see the typeof is equal to int 10
-
-//Check if parseFloat('9.8') is equal to 10 if not make it exactly equal with 10.
-
-
-//Check if 'on' is found in both python and jargon
-
-
-//I hope this course is not full of jargon. Check if jargon is in the sentence.
-
-
-//Generate a random number between 0 and 100 inclusively.
-
-
-//Generate a random number between 50 and 100 inclusively.
-
-
-//Generate a random number between 0 and 255 inclusively.
-
-
-//Access the 'JavaScript' string characters using a random number.
