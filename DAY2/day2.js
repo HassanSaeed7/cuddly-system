@@ -132,3 +132,17 @@ console.log(js[num7])
 \': Single quote (')
 \": Double quote (")*/
 console.log(' 1 1 1 1 1\n 2 1 2 4 8\n 3 1 3 9 27 \n 4 1 4 16 64 \n 5 1 5 25 125')
+
+//Use substr to slice out the phrase because because because from the following sentence:'You cannot end a sentence with because because because is a conjunction'
+let string5 = 'You cannot end a sentence with because because because is a conjunction'
+console.log(string5.substr(32, 23))
+
+//Love is the best thing in this world. Some found their love and some are still looking for their love.' Count the number of word love in this sentence.
+let string6 = 'Love is the best thing in this world. Some found their love and some are still looking for their love.'
+let pattern = /love/gi
+console.log(string6.match(pattern))
+
+//Use match() to count the number of all because in the following sentence:'You cannot end a sentence with because because because is a conjunction'
+let string7 =  'You cannot end a sentence with because because because is a conjunction'
+let pattern = /because/gi
+console.log(string7.match(pattern))
