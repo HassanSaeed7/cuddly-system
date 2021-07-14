@@ -91,3 +91,20 @@ let num = '10'
 let numInt = parseInt(num)
 console.log(numInt) 
 console.log(typeof numInt) //double-checking to see the typeof is equal to int 10
+
+//Check if parseFloat('9.8') is equal to 10 if not make it exactly equal with 10.
+console.log(typeof '9.8')
+let num1 = '9.8'
+let numFloat = parseFloat(num1)
+console.log(numFloat)
+console.log(typeof numFloat)
+
+//Check if 'on' is found in both python and jargon
+let thisString = 'python'
+let thatString = 'jargon'
+console.log(thisString.match('on'))
+console.log(thatString.match('on'))
+
+//I hope this course is not full of jargon. Check if jargon is in the sentence.
+let thisSentence = 'I hope this course is not full of jargon.'
+console.log(thisSentence.search('jargon'))
