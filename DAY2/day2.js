@@ -120,3 +120,15 @@ console.log(num3)
 //Generate a random number between 0 and 255 inclusively.
 const num4 = Math.floor(Math.random () * 257)
 console.log(num4)
+
+//Access the 'JavaScript' string characters using a random number.
+let js = 'JavaScript'
+let num7 = Math.floor(Math.random () * 11)
+console.log(js[num7])
+
+/*\n: new line
+\t: Tab, means 8 spaces
+\\: Back slash
+\': Single quote (')
+\": Double quote (")*/
+console.log(' 1 1 1 1 1\n 2 1 2 4 8\n 3 1 3 9 27 \n 4 1 4 16 64 \n 5 1 5 25 125')
